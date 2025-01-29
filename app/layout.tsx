@@ -12,8 +12,8 @@ const ibmPlexSerif = IBM_Plex_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Horizon",
-  description: "Horizon is a modern banking platform for everyone.",
+  title: "Finova",
+  description: "Finova – Secure & Smart Mobile Banking . A next-gen banking app offering secure transactions, and financial inclusion for seamless banking",
   icons: {
     icon: '/icons/logo.svg'
   }
