@@ -34,10 +34,10 @@ const MobileNav = ({ user }: MobileNavProps) => {
         <SheetContent side="left" className="border-none bg-white">
           <Link href="/" className="cursor-pointer flex items-center gap-1 px-4">
             <Image 
-              src="/icons/logo.svg"
+              src="/icons/finova-logo.svg"
               width={34}
               height={34}
-              alt="Horizon logo"
+              alt="Finova logo"
             />
             <h1 className="text-26 font-ibm-plex-serif font-bold text-black-1">Finova</h1>
           </Link>
@@ -50,7 +50,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                 return (
                   <SheetClose asChild key={item.route}>
                     <Link href={item.route} key={item.label}
-                      className={cn('mobilenav-sheet_close w-full', { 'bg-bank-gradient': isActive })}
+                      className={cn('mobilenav-sheet_close w-full', { 'bg-green-600': isActive })}
                     >
                         <Image 
                           src={item.imgURL}

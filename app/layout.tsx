@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Finova",
   description: "Finova – Secure & Smart Mobile Banking . A next-gen banking app offering secure transactions, and financial inclusion for seamless banking",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/icons/finova-logo.svg'
   }
 };
 

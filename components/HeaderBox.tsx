@@ -4,7 +4,7 @@ const HeaderBox = ({ type = "title", title, subtext, user }: HeaderBoxProps) => 
       <h1 className="header-box-title">
         {title}
         {type === 'greeting' && (
-          <span className="text-bankGradient">
+          <span className="text-green-600">
             &nbsp;{user}
           </span>
         )}
@@ -14,4 +14,4 @@ const HeaderBox = ({ type = "title", title, subtext, user }: HeaderBoxProps) => 
   )
 }
 
-export default HeaderBox
+export default HeaderBox;
